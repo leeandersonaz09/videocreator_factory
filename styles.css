@@ -204,8 +204,23 @@ h2 {
 
 .checklist,
 .link-list,
-.legal-block ul {
+.legal-block ul,
+.flow-list {
   padding-left: 20px;
+}
+
+.flow-list li + li,
+.checklist li + li,
+.link-list li + li {
+  margin-top: 10px;
+}
+
+.note {
+  margin-top: 18px;
+  padding: 14px 16px;
+  border-left: 4px solid var(--accent);
+  background: rgba(170, 75, 31, 0.08);
+  border-radius: 12px;
 }
 
 .site-footer {

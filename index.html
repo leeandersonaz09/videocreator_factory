@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Autoshorts Agent Factory</title>
-  <meta name="description" content="Autoshorts Agent Factory is a desktop workflow for creating short-form videos with AI-assisted scripting, captions, thumbnails, and publishing preparation.">
+  <meta name="description" content="Autoshorts Agent Factory is a desktop application that creates short-form videos and lets users connect their own TikTok account through an app-initiated authorization flow.">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -23,24 +23,25 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <p class="eyebrow">Desktop Video Workflow</p>
-          <h1>Create and prepare short-form videos for social publishing.</h1>
+          <p class="eyebrow">Desktop Application</p>
+          <h1>Autoshorts Agent Factory runs on the user's desktop, not as a web app.</h1>
           <p class="lead">
-            Autoshorts Agent Factory is a desktop tool that helps create short vertical videos with AI-assisted topic research,
-            scripting, voice generation, subtitles, thumbnails, and publishing-ready metadata.
+            This website is a public information and support page for the desktop product. Users create videos locally, start
+            account connection from the desktop workflow, and use the official platform authorization flow when connecting a
+            TikTok account.
           </p>
           <div class="actions">
-            <a class="button primary" href="./privacy.html">View Privacy Policy</a>
-            <a class="button secondary" href="./terms.html">View Terms</a>
+            <a class="button primary" href="#login-flow">How Login Works</a>
+            <a class="button secondary" href="./privacy.html">Privacy Policy</a>
           </div>
         </div>
         <div class="card spotlight">
-          <h2>What the app does</h2>
+          <h2>What the desktop app does</h2>
           <ul class="checklist">
-            <li>Generates short-form video concepts and scripts</li>
-            <li>Builds subtitles, thumbnails, and platform metadata</li>
-            <li>Prepares exports for YouTube and TikTok workflows</li>
-            <li>Lets the user review content before final publishing</li>
+            <li>Generates short-form video ideas, scripts, captions, and thumbnails</li>
+            <li>Builds local video exports and publishing metadata on the user's machine</li>
+            <li>Lets the user connect the user's own TikTok account from the desktop workflow</li>
+            <li>Sends content for draft or publishing review only after explicit user action</li>
           </ul>
         </div>
       </div>
@@ -49,26 +50,68 @@
     <section class="section">
       <div class="container grid-two">
         <article class="card">
-          <h2>How it works</h2>
+          <h2>Website purpose</h2>
           <p>
-            The application runs on the user's desktop and processes local project files to generate video packages. It can
-            assemble narration, subtitles, and visual assets, then export a final video file with platform-ready descriptions
-            and titles.
+            This website is not the main application interface. It exists to provide public product information, legal pages,
+            and support contact details for platform review and end users.
           </p>
           <p>
-            For supported social platforms, the app can connect the user's own account through official authorization flows and
-            help send prepared content for publishing or final review.
+            The product itself runs as a desktop and command-line workflow. Users do not create projects, render videos, or
+            complete their work from this website.
           </p>
         </article>
         <article class="card">
-          <h2>Intended use</h2>
+          <h2>Why there is no web login form</h2>
           <p>
-            This service is designed for creators, editors, and channel operators who want to streamline short-video production
-            while keeping human review in the loop.
+            Login is initiated from the desktop application because the product is not a browser-based SaaS. The website is
+            intentionally informational and therefore does not present a standalone username and password experience.
           </p>
           <p>
-            Users remain responsible for reviewing their content, media rights, descriptions, and publishing decisions before a
-            video goes live on any platform.
+            When a user wants to connect TikTok, the desktop app starts the official authorization flow and the user signs in
+            with TikTok directly through the provider's own authentication experience.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="login-flow">
+      <div class="container">
+        <div class="card">
+          <h2>How TikTok login works</h2>
+          <ol class="flow-list">
+            <li>The user launches the desktop application on the user's own computer.</li>
+            <li>The user chooses the TikTok connection command inside the desktop or CLI workflow.</li>
+            <li>The app opens the official TikTok authorization page so the user can sign in and approve access.</li>
+            <li>After approval, the desktop workflow stores the returned authorization data locally and uses it only for the user's requested posting actions.</li>
+          </ol>
+          <p class="note">
+            The website does not authenticate users directly because authentication belongs to the desktop product and the
+            official provider flow.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-two">
+        <article class="card">
+          <h2>Available user actions</h2>
+          <ul class="checklist">
+            <li>Create and prepare short vertical videos locally</li>
+            <li>Review scripts, captions, thumbnails, and metadata before posting</li>
+            <li>Connect a TikTok account owned by the user through official authorization</li>
+            <li>Send content for draft creation or final publishing review after user confirmation</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h2>Intended users</h2>
+          <p>
+            The desktop workflow is designed for creators, editors, and channel operators who want to streamline short-video
+            production while keeping human review in the loop.
+          </p>
+          <p>
+            Users remain responsible for the content they create, the media rights they use, and the final decision to publish
+            on connected platforms.
           </p>
         </article>
       </div>
@@ -77,9 +120,10 @@
     <section class="section alt">
       <div class="container">
         <div class="card">
-          <h2>Contact and policy links</h2>
+          <h2>Support and compliance information</h2>
           <p>
-            This site is the public information page for the Autoshorts Agent Factory application.
+            For support questions, platform review follow-up, or legal requests, contact
+            <a href="mailto:leeandersonaz09@gmail.com">leeandersonaz09@gmail.com</a>.
           </p>
           <ul class="link-list">
             <li><a href="./privacy.html">Privacy Policy</a></li>
